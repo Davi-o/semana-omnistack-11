@@ -1,16 +1,9 @@
 import React from 'react';
-import './App.css';
+import Routes from "./routes";
+import './global.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Olá React.
-        </p>
-      </header>
-    </div>
+    <Routes/>
   );
 }
-
-export default App;
